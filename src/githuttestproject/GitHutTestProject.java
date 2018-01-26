@@ -15,7 +15,10 @@ public class GitHutTestProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Car car = new Car();
+        Car car = new Car("Lanbo");
+        car.printMetersDriven();
+        car.drive(3);
+        car.printMetersDriven();
     }
     
 }
