@@ -32,4 +32,8 @@ public class Car {
     public void printMetersDriven() {
         System.out.println(nameOfCar + ": has driven " + metersDrivenTotal);
     }
+    
+    public int getMetersDrivenTotal() {
+        return this.metersDrivenTotal;
+    }
 }
